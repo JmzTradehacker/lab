@@ -1,8 +1,30 @@
-# React + Vite
+# Rendering Arrays in React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates how to render components dynamically from arrays stored in state using **React** and **Vite**. It includes components to display a list of learners and their scores.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Displays a list of learners and their details.
+- Each learner's name, bio, and scores are dynamically rendered.
+- Uses a modular component structure:
+  - **`App`**: Initializes state and renders the learners.
+  - **`Learner`**: Renders individual learner details.
+  - **`Score`**: Displays each learner's score and the date.
+
+---
+
+## Tech Stack
+
+- React
+- Vite
+
+---
+
+## Setup
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd react-rendering-arrays
